@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONTAK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>M.RANGGA DWI SAPUTRA</h1>
+        <p>WELCOME TO MY WEBSITE PORTOFOLIO</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">BERANDA</a></li>
+                <li><a href="proyek.html">PROYEK</a></li>
+                <li><a href="kontak.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="kartu">
+                <h2>HUBUNGI SAYA</h2>
+                <p>Is there anything you would like to ask, or would you like to collaborate?</p>
+
+                <form>
+                    <p>
+                        <label for="nama">NAME YOU</label><br>
+                        <input type="text" id="nama" name="nama" placeholder="Contoh : Leobaghoes" required>
+                    </p>
+
+                    <p>
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" name="email" placeholder="Leobaghoes@gmail.com" required>
+                    </p>
+
+                    <p>
+                        <label for="hp">NUMBER PHONE</label><br>
+                        <input type="tel" id="hp" name="hp" placeholder="0823456798" required>
+                    </p>
+
+                    <p>
+                        <label for="keperluan">NECESSITIES</label><br>
+                        <select id="keperluan" name="keperluan" required>
+                            <option value="">-- SELECT REQUIREMENTS --</option>
+                            <option value="bertanya">ASK</option>
+                            <option value="kerja sama">PROJECT COLLABORATION</option>
+                            <option value="lainnya">OTHER</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="pesan">MESSAGE</label><br>
+                        <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="WRITE YOUR MESSAGE HERE" required></textarea>
+                    </p>
+
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 M.Rangga Dwi Saputra. All rights reserved.</p>
+    </footer>
+</body>
+</html>

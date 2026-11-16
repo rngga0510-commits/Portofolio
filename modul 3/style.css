@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "inter", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #3d3d3d;
+    background-color: #f1faee;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #1d3557;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-bottom: 0.75rem;
+}
+
+p, ul, ol {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #e63946;
+}
+
+header {
+    background-color: #1d3557;
+    color: #ffffff;
+    padding: 2rem 1.5rem 1rem;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.25rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main {
+    padding: 1.5rem;
+} 
+
+.kartu {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+figure img {
+    border: 4px solid #e63946;
+    border-radius: 50%;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    color: #636363;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #1d3557;
+    color: #ffffff;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, select, textarea {
+    width: 22rem;
+    padding: 0,6rem;
+    margin-top: 0.25rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #e63946;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1d3557;
+    color: #f1faee;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer p {
+    margin-bottom: 0.25rem;
+}
+
+footer a {
+    color: #ffffff;
+}
