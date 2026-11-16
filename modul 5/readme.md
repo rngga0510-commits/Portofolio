@@ -15,6 +15,7 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan Github
+- VS Code dan Live server
 
 ## Tautan 
 - Website: menyusul setelah *deploy* ke Vercel
