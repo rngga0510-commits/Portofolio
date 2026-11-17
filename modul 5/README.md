@@ -5,7 +5,7 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 
 ## Tampilan
 
-![Tampilan beranda portofolio](tampilan.png)
+![Tampilan beranda portofolio](/img/tampilan.png)
 
 ## Fitur
 
