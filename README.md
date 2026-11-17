@@ -23,5 +23,5 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 
 ## Tautan
 
-- Website: Menyusul setelah *deploy* ke Vercel
+- Website: https://portofolio-rangga05.vercel.app/
 - Dibuat oleh: M.Rangga Dwi S, SMKN 1 Jenangan
