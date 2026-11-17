@@ -1,0 +1,6 @@
+# File bawaan sistem operasi
+Thumbs.db
+.DS_Store
+
+# Pengaturan pribadi VS Code
+.vscode/
